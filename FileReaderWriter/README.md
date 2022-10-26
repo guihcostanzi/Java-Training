@@ -1,14 +1,14 @@
-#-- PROJETO TESTE COM FILE, FILEREADER E FILEWRITER --
+# -- PROJETO TESTE COM FILE, FILEREADER E FILEWRITER --
 
 Para funcionar corretamente, é necessário que se passe um path ( caminho do arquivo ). 
 
-##Ex. de Path do arquivo :
+## Ex. de Path do arquivo :
 
 C:\FileGenSys\SoldItens.txt
 
 O arquivo deve ter seu conteúdo seguindo esse modelo :
 
-##**Ex. Conteúdo :**
+## Ex. Conteúdo :
 
 *Televisão,2000.90,1*
 *Rádio,300.90,2*
@@ -36,7 +36,7 @@ Product : Celular, Total Sales : $ 2401,80
 *Obs : Essa informação é gravada em "C:\FileGenSys\Summary",*
 *dentro de um arquivo "SalesSummary-yyyy-MM-dd.txt.*
 
-###Índice :
+### Índice :
 * dd : Dia 
 * MM : Mês
 * yyyy : Ano
