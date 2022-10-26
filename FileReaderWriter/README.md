@@ -34,7 +34,7 @@ utilizar ponto ( . ) para separar números com ponto flutuante (decimais).
  6. ---------------------- *END* -----------------------
 
 *Obs : Essa informação é gravada em "C:\FileGenSys\Summary",*
-*dentro de um arquivo "SalesSummary-yyyy-MM-dd.txt.*
+*dentro de um arquivo "SalesSummary-yyyy-MM-dd.txt".*
 
 ## Índice :
 * dd : Dia 
