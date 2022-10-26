@@ -10,10 +10,10 @@ O arquivo deve ter seu conteúdo seguindo esse modelo :
 
 ## Ex. Conteúdo :
 
-*Televisão,2000.90,1*
-*Rádio,300.90,2*
-*Pneu,100.90,4*
-*Celular,1200.90,2*
+* *Televisão,2000.90,1*
+* *Rádio,300.90,2*
+* *Pneu,100.90,4*
+* *Celular,1200.90,2*
 
 É necessário colocar um tipo de produto em cada linha, com suas informações 
 separadas por ' , ' (vírgula) conforme no exemplo acima, de preferência sem 
@@ -26,12 +26,12 @@ utilizar ponto ( . ) para separar números com ponto flutuante (decimais).
 ###Se utilizado o arquivo apontado por "C:\FileGenSys\SoldItens.txt", 
 ###o resultado será esse :
 
---------------dd/MM/yyyy HH:mm--------------
-Product : Televisão, Total Sales : $ 2000,90
-Product : Rádio, Total Sales : $ 601,80
-Product : Pneu, Total Sales : $ 403,60
-Product : Celular, Total Sales : $ 2401,80
---------------------------------------------
+> --------------dd/MM/yyyy HH:mm--------------
+> Product : Televisão, Total Sales : $ 2000,90
+> Product : Rádio, Total Sales : $ 601,80
+> Product : Pneu, Total Sales : $ 403,60
+> Product : Celular, Total Sales : $ 2401,80
+> --------------------------------------------
 
 *Obs : Essa informação é gravada em "C:\FileGenSys\Summary",*
 *dentro de um arquivo "SalesSummary-yyyy-MM-dd.txt.*
