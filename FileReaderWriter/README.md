@@ -31,7 +31,7 @@ utilizar ponto ( . ) para separar números com ponto flutuante (decimais).
  3. Product : Rádio, Total Sales : $ 601,80
  4. Product : Pneu, Total Sales : $ 403,60
  5. Product : Celular, Total Sales : $ 2401,80
- 6. --------------------------------------------
+ 6. - ------------------ -------------------- --
 
 *Obs : Essa informação é gravada em "C:\FileGenSys\Summary",*
 *dentro de um arquivo "SalesSummary-yyyy-MM-dd.txt.*
