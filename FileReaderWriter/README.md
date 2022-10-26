@@ -48,3 +48,18 @@ utilizar ponto ( . ) para separar números com ponto flutuante (decimais).
 
 **Esses atributos de tempo acompanham o fuso horário local do sistema em que se está gerando os relatórios.**
 
+## Criação da pasta Summary :
+
+### A pasta Summary e os relatórios gerados dentro dela se comportam dessa forma :
+
+#### * A pasta Summary é gerada dentro da pasta em que o arquivo lido inicialmente se encontra,
+#### uma vez que se utiliza o getParent() no arquivo passado no começo do programa para determinar o local de criação da pasta.
+
+#### * Caso a pasta já tenha sido gerada anteriormente, ela será reutilizada. Isso é, caso o arquivo passado anteriormente esteja 
+#### na mesma pasta em que a pasta Summary foi gerada anteriormente.
+
+#### * Em um arquivo SalesSummary-2022-10-22.txt, ficarão armazenados todos os relatórios gerados no dia 22/10/2022, dito isso,
+#### * um novo arquivo será gerado apenas se ocorrer mudança de data.
+
+
+
