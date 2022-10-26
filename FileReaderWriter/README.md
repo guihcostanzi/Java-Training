@@ -23,8 +23,8 @@ array, em que : **[0] nome**, **[1] preço**, **[2] qtd. vendida**.
 A função split recebe como separador a vírgula ( , ), portanto, se deve
 utilizar ponto ( . ) para separar números com ponto flutuante (decimais).
 
-### Se utilizado o arquivo apontado por "C:\FileGenSys\SoldItens.txt", 
-### o resultado será esse :
+## Se utilizado o arquivo apontado por "C:\FileGenSys\SoldItens.txt", 
+## o resultado será esse :
 
  1. --------------dd/MM/yyyy HH:mm--------------
  2. Product : Televisão, Total Sales : $ 2000,90
@@ -36,7 +36,7 @@ utilizar ponto ( . ) para separar números com ponto flutuante (decimais).
 *Obs : Essa informação é gravada em "C:\FileGenSys\Summary",*
 *dentro de um arquivo "SalesSummary-yyyy-MM-dd.txt.*
 
-### Índice :
+## Índice :
 * dd : Dia 
 * MM : Mês
 * yyyy : Ano
@@ -50,16 +50,16 @@ utilizar ponto ( . ) para separar números com ponto flutuante (decimais).
 
 ## Criação da pasta Summary :
 
-### A pasta Summary e os relatórios gerados dentro dela se comportam dessa forma :
+**A pasta Summary e os relatórios gerados dentro dela se comportam dessa forma :**
 
-#### * A pasta Summary é gerada dentro da pasta em que o arquivo lido inicialmente se encontra,
-#### uma vez que se utiliza o getParent() no arquivo passado no começo do programa para determinar o local de criação da pasta.
+* A pasta Summary é gerada dentro da pasta em que o arquivo lido inicialmente se encontra,
+uma vez que se utiliza o getParent() no arquivo passado no começo do programa para determinar o local de criação da pasta.
 
-#### * Caso a pasta já tenha sido gerada anteriormente, ela será reutilizada. Isso é, caso o arquivo passado anteriormente esteja 
-#### na mesma pasta em que a pasta Summary foi gerada anteriormente.
+* Caso a pasta já tenha sido gerada anteriormente, ela será reutilizada. Isso é, caso o arquivo passado esteja 
+na mesma pasta em que a pasta Summary foi gerada anteriormente.
 
-#### * Em um arquivo SalesSummary-2022-10-22.txt, ficarão armazenados todos os relatórios gerados no dia 22/10/2022, dito isso,
-#### * um novo arquivo será gerado apenas se ocorrer mudança de data.
+* Em um arquivo SalesSummary-2022-10-22.txt, ficarão armazenados todos os relatórios gerados no dia 22/10/2022, dito isso,
+um novo arquivo será gerado apenas se ocorrer mudança de data.
 
 
 
