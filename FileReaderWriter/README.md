@@ -44,7 +44,7 @@ utilizar ponto ( . ) para separar números com ponto flutuante (decimais).
 * mm : Minuto
 
 1. *Exemplo : dd/MM/yyyy HH:mm --> 27/08/2003 18:30.*
-2. *Exemplo 2 : SalesSummary-yyyy-MM-dd.txt --> SalesSummary-2003-08-27.txt.*
+2. *Exemplo : SalesSummary-yyyy-MM-dd.txt --> SalesSummary-2003-08-27.txt.*
 
 **Esses atributos de tempo acompanham o fuso horário local do sistema em que se está gerando os relatórios.**
 
