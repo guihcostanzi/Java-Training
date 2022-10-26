@@ -26,12 +26,12 @@ utilizar ponto ( . ) para separar números com ponto flutuante (decimais).
 ### Se utilizado o arquivo apontado por "C:\FileGenSys\SoldItens.txt", 
 ### o resultado será esse :
 
-> * --------------dd/MM/yyyy HH:mm--------------
-> * Product : Televisão, Total Sales : $ 2000,90
-> * Product : Rádio, Total Sales : $ 601,80
-> * Product : Pneu, Total Sales : $ 403,60
-> * Product : Celular, Total Sales : $ 2401,80
-> * --------------------------------------------
+ 1. --------------dd/MM/yyyy HH:mm--------------
+ 2. Product : Televisão, Total Sales : $ 2000,90
+ 3. Product : Rádio, Total Sales : $ 601,80
+ 4. Product : Pneu, Total Sales : $ 403,60
+ 5. Product : Celular, Total Sales : $ 2401,80
+ 6. --------------------------------------------
 
 *Obs : Essa informação é gravada em "C:\FileGenSys\Summary",*
 *dentro de um arquivo "SalesSummary-yyyy-MM-dd.txt.*
