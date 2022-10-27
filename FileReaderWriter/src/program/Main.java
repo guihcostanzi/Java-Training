@@ -33,9 +33,8 @@ public class Main {
 
 		System.out.println("Enter the path to the file you are going to read :");
 		System.out.print("Path : ");
-		String path = sc.next();
+		String path = sc.nextLine();
 		System.out.println();
-		sc.nextLine();
 
 		File file = new File(path);
 
