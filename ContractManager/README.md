@@ -5,7 +5,7 @@
 1. Se insere o valor do contrato.
 2. Se divide esse valor pelo número de parcelas optado pelo usuário.
 3. Se adiciona uma taxa de juros simples de 1% a cada mês sobre as parcelas.
-4. Se adicionada uma taxa de pagamento de 2% sobre a parcela, já acrescida dos juros.
+4. Se adiciona uma taxa de pagamento de 2% sobre a parcela, já acrescida dos juros.
 
 **Exemplo :**
 
