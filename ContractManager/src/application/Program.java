@@ -70,7 +70,7 @@ public class Program {
 		}
 		System.out.println();
 		
-		System.out.println("Contract Final Value : $ " + cs.getContractFinalValue(contract));
+		System.out.println("Contract Final Value : $ " + String.format("%.2f", cs.getContractFinalValue(contract)));
 		
 
 	}
