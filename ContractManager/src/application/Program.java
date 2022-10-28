@@ -50,7 +50,7 @@ public class Program {
 		// Definir em quantas parcelas pagar.
 		
 		System.out.print("How many installments ?");
-		Integer intallmentsQtd = sc.nextInt();
+		Integer installmentsQtd = sc.nextInt();
 		sc.nextLine();
 		System.out.println();
 		
@@ -60,7 +60,7 @@ public class Program {
 		
 		// Chamar o método para atribuir as parcelas ao contrato.
 		
-		cs.processContract(contract, intallmentsQtd);
+		cs.processContract(contract, installmentsQtd);
 		
 		System.out.println("Installments :");
 		System.out.println();
