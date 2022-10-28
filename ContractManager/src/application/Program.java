@@ -56,7 +56,7 @@ public class Program {
 		
 		// Informar o contrato e o método de pagamento para o ContractService.
 		
-		ContractService cs = new ContractService(contract,  new PaypalPaymentService ());
+		ContractService cs = new ContractService(new PaypalPaymentService ());
 		
 		// Chamar o método para atribuir as parcelas ao contrato.
 		
@@ -70,7 +70,7 @@ public class Program {
 		}
 		System.out.println();
 		
-		System.out.println("Contract Final Value : $ " + cs.getContractFinalValue());
+		System.out.println("Contract Final Value : $ " + cs.getContractFinalValue(contract));
 		
 
 	}

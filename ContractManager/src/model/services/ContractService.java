@@ -7,20 +7,10 @@ import model.entities.Installment;
 
 public class ContractService {
 
-	private Contract contract;
 	private OnlinePaymentSys paymentSys;
 
-	public ContractService(Contract contract, OnlinePaymentSys paymentSys) {
-		this.contract = contract;
+	public ContractService(OnlinePaymentSys paymentSys) {
 		this.paymentSys = paymentSys;
-	}
-
-	public Contract getContract() {
-		return contract;
-	}
-
-	public void setContract(Contract contract) {
-		this.contract = contract;
 	}
 
 	public OnlinePaymentSys getPaymentSys() {
@@ -47,7 +37,7 @@ public class ContractService {
 		}
 	}
 
-	public Double getContractFinalValue() {
+	public Double getContractFinalValue(Contract contract) {
 
 		Double total = 0.0;
 		for (Installment i : contract.getInstallments()) {
