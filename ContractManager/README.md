@@ -58,7 +58,7 @@ que também são TaxService.
  }
  
 ```
-*Nesse caso, o método treatmentFinalPrice será reutilizado nas classes que implementarem a interface TreatmentService.*
+*Nesse caso, o método treatmentFinalPrice () será reutilizado nas classes que implementarem a interface TreatmentService.*
 
 Obs : O método getTreatmentTax () não pode ser default nesse caso pois dependeria de um atributo para ser implementado, e interfaces não têm
 atributos. Pelo mesmo motivo interfaces não têm construtores.
