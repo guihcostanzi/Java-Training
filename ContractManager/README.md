@@ -26,3 +26,39 @@ garantindo que irá implementar os métodos de interesse e deixando o código ma
 
 Se algum dia o PaypalPaymentService precisar ser substituido, basta troca na instanciação do objeto ContractService. Não 
 será necessário ter mais pontos de contato em outras classes.
+
+### Herança ( extends ) vs Interface ( implements )
+
+**Ao mesmo tempo que os dois conceitos tem pontos semelhantes, como:**
+
+1. Relação "É um" das classes que herdam ou implementam, ou seja : Uma classe BrazilTaxService que herda/implementa a classe TaxService irá gerar objetos 
+que também são TaxService.
+2. Polimorfismo, possibilitado pela interação acima.
+3. Generalização e Especialização, ou seja, há uma classe genérica que poderá gerar classes mais específicas.
+
+**Note que os dois conceitos são diferentes.**
+
+#### * Herança :
+
+* Há a incorporação dos métodos e atributos da classe pai na classe filha, um reuso.
+
+#### * Interface :
+
+* Não possui atributos, mas atua como um contrato que dita o que a classe que irá implementar a interface deve fazer, seus métodos.
+* Com os *Default Methods* é possível fazer o reuso dos métodos da Interface nas classes que a implementam, como em : 
+```
+ public interface TreatmentService {
+ 
+   Double getTreatmentTax ();
+
+   Default Double treatmentFinalPrice (Double price, Double hospitalFee) {
+      return price + hospitalFee + (price + hospitalFee)*geTreatmentTax;  
+   }
+   
+ }
+ 
+```
+*Nesse caso, o método treatmentFinalPrice será reutilizado nas classes que implementarem a interface TreatmentService.*
+
+Obs : O método getTreatmentTax () não pode ser default nesse caso pois dependeria de um atributo para ser implementado, e interfaces não têm
+atributos. Pelo mesmo motivo interfaces não têm construtores.
