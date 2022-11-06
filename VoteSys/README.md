@@ -73,9 +73,9 @@ Map<Integer, String> people = new HashMap<>();
 		people.put(1, Paola);
 		people.put(2, Carla);
 		people.put(3, Alex);
-    people.put(1, Olaf);
+   		people.put(1, Olaf);
     
-    System.out.println(people.get(5)); \\null
+   		System.out.println(people.get(5)); \\null
 		
 ````
 
