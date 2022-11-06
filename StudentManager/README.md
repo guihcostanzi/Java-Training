@@ -56,10 +56,10 @@ public class Product implements Comparable<Product> {
 
 ### Operações com Sets
 
-*size();
-*contains();
-*add();
-*remove();
+* size();
+* contains();
+* add();
+* remove();
 
 #### União 
 
