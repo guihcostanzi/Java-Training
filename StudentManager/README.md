@@ -99,3 +99,38 @@ Set B : (1, 2, 7, 9);
 A.removeAll(B);
 ```
 Set A : (3, 4);
+
+### COMPARAÇÃO ENTRE SETS
+
+* Se feita com HashCode ou Equals, o conteúdo do Set ( elementos ) será considerado para comparação.
+* Se feita com " == ", a referência será considerada para comparação.
+
+```
+	Set<Integer> set = new HashSet();
+
+	set.add(1);
+	set.add(2);
+	set.add(3);
+
+	Set<Integer> otherSet = new HashSet();
+
+	otherSet.add(1);
+	otherSet.add(2);
+	otherSet.add(3);
+	
+	// Comparação #1
+	System.out.println(set.equals(otherSet)); // true 
+	
+	// Comparação #2
+	System.out.println(set == otherSet); // false
+
+	Set<Integer> exampleSet = set;
+	
+	// Comparação #3
+	System.out.println(set == exampleSet); // true
+```
+
+**Observe que a Comparação :**
+1. É verdade porque se está utilizando o método equals, comparando o conteúdo dos objetos.
+2. É falso porque se está comparando as refêrencias dos objetos, que estão alocados em diferentes partes do heap ( memória ), por serem objetos independentes.
+3. É verdade porque se está atribuindo a referência do objeto de set para o exampleSet, ou seja, os dois apontam para um mesmo objeto. Portanto, refêrencias iguais.
