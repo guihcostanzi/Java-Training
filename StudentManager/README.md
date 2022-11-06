@@ -61,14 +61,14 @@ public class Product implements Comparable<Product> {
 *add();
 *remove();
 
-##### União 
+#### União 
 
 * addAll(); 
 
 Obs : Adiciona ao Set todos os elementos de um outro Set. Devido às propriedades do Set, um elemento não pode se repetir, originando, com esse método, a união
 entre os dois Sets que interagem com o método.
 
-##### Interseção
+#### Interseção
 
 * retainAll();
 
@@ -84,7 +84,7 @@ A.retainAll(B);
 ```
 Set A : (1,2);
 
-##### Diferença
+#### Diferença
 
 * removeAll();
 
