@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author guilh
+ *
+ */
+module StudentManager {
+}
