@@ -106,13 +106,13 @@ Set A : (3, 4);
 * Se feita com " == ", a referência será considerada para comparação.
 
 ```
-	Set<Integer> set = new HashSet();
+	Set<Integer> set = new HashSet<>();
 
 	set.add(1);
 	set.add(2);
 	set.add(3);
 
-	Set<Integer> otherSet = new HashSet();
+	Set<Integer> otherSet = new HashSet<>();
 
 	otherSet.add(1);
 	otherSet.add(2);
