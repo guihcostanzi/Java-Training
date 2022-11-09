@@ -14,6 +14,10 @@ nameList.forEach(System.out::println);
 
 Observe que a estrutura de uma arrow function é : " <parâmetros> -> <implementação da função> ";
 
+````
+(x,y) -> x+y
+````
+
 No caso da função anônima poder ser escrita em apenas uma linha, o uso de chaves e do return é dispensado, pois já fica subententido.
 Quando se tem mais de uma linha, se deve usar chaves :
 
