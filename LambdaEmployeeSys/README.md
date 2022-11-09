@@ -109,18 +109,18 @@ Uma vez que operações em streams retornam novas streams, é possível criar um
 
 * Operação Intermediária : Produz novas streams. É executada apenas quando uma operação final é chamada (lazy evaluation).
   Exemplo :
-  1. filter();
-  2. map();
-  3. sorted();
-  4. limit(); * operação short-circuit : limita o processamento da stream.
+  * filter();
+  * map();
+  * sorted();
+  * limit(); * operação short-circuit : limita o processamento da stream.
   
 * Operação Terminal : Produz um objeto que não seja uma Stream, uma coleção (lista) por exemplo. Demarca o fim do processamento da Stream, da pipeline.
   Exemplo :
-  1. forEach();
-  2. reduce();
-  3. collect();
-  4. anyMatch() * ;
-  5. findFirst() * ;
+  * forEach();
+  * reduce();
+  * collect();
+  * anyMatch() * ;
+  * findFirst() * ;
 
 Exemplo de Pipeline :
 
