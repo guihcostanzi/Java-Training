@@ -51,10 +51,10 @@ public class Program {
 		sc.nextLine();
 		 
 		List<String> emailList = employeeList.stream()
-							.filter(e -> e.getSalary() > minimumSalary)
-							.map(e -> e.getEmail())
-							.sorted()
-							.collect(Collectors.toList());
+					  	.filter(e -> e.getSalary() > minimumSalary)
+						.map(e -> e.getEmail())
+						.sorted()
+						.collect(Collectors.toList());
 		
 		System.out.println("E-mail of the employees whose salary is greater than the parameter :");
 		emailList.forEach(System.out::println);
