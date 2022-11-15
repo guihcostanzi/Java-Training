@@ -151,7 +151,7 @@ public class Main {
 		System.out.println("END !");
 		
 		sc.close();
-		
+		DB.closeConnection();
 		
 		
 		
