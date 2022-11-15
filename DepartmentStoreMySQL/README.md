@@ -80,6 +80,28 @@
   *Obs : The executeUpdate() method can be called outside of a variable, simply executting the sql command, or inside a variable, returning the number
   of rows affected.*
   
+### RESULT SET
+
+  It storages the returned data from a query. This data can be accessed using the get<type> method mentioned in the Statement class summary.
+  
+  Its next() method goes through the rows of the ResultSet and returns false when the row is null. It can be used like this :
+  
+  ````
+  while (resultSet.next()) {
+      
+      int ID = resultSet.getInt("ID_COLUMN");
+      String name = resultSet.getString("NAME_COLUMN");
+      
+      Employee emp = new Employee(ID, name);
+      
+      empList.add(emp)
+      
+  }
+  ````
+  
+  *Obs : It assuras that all of the rows that have data ( not null ) will be processed. In this example, from each row I created a new Employee object and 
+  added it to an List<Employee>.*
+  
   
   
   
